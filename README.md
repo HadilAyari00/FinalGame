@@ -22,6 +22,7 @@ New features:
 * Invaders and final boss are now represented by images from the original game.
 * Player has been replaced with a spaceship image.
 * A score that increases each time an alien is defeated.
+* Obstacles get smaller in the last level to make it harder
 * A final boss that appears in the last level and has 100 hit points, kill the final boss and win the game !
 
 extra features:
