@@ -6,7 +6,7 @@ As I am a fan of classic old-school arcade games, I developed a game inspired by
 
 
 Old features:
-* A player class that allows the player to move side to side. The player was originally represented by a square but has now been replaced with a spaceship image.
+* A player class that allows the player to move side to side. the player originally was able to move anywhere, but that made the game too hard so I restricted his mouvement like in the original game.
 * An alien class representing the monsters that must be defeated. The aliens were originally represented by squares but now have their own images.
 * Movement for the aliens, which used to be random across the screen.
 * The ability for the player to shoot and defeat the aliens by making them disappear when hit by a bullet.
