@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Space Invaders</title>
+    <style>
+      @import url("https://fonts.cdnfonts.com/css/common-pixel");
+      /* define canvas style */
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background-image: "./img/bg.gif";
+      }
+    </style>
+  </head>
+  <body>
+    <p
+      style="
+        position: fixed;
+        left: 10px;
+        top: 10px;
+        z-index: 10px;
+        color: white;
+        margin: 0;
+        font-family: 'Common Pixel';
+        font-size: 20px;
+      "
+    >
+      <span id="lvltxt">LEVEL : </span><span id="level">1</span> <br /><span
+        id="scoretxt"
+        >SCORE : </span
+      ><span id="score">0</span>
+    </p>
+    <p
+      id="boss_txt"
+      style="
+        position: fixed;
+        left: 950px;
+        top: 10px;
+        z-index: 10px;
+        color: white;
+        margin: 0;
+        font-family: 'Common Pixel';
+        font-size: 20px;
+      "
+    >
+      <span>BOSS HP : </span> <br /><span id="hp">0</span>
+    </p>
+    <p
+      style="
+        position: fixed;
+        left: 250px;
+        top: 150px;
+        z-index: 10px;
+        color: white;
+        margin: 0;
+        font-family: 'Common Pixel';
+        text-align: center;
+        margin: 50 50 50 50;
+      "
+      id="title"
+    >
+      <span id="title_sp" style="font-size: 50px; color: yellow"
+        >SPACE INVADERS</span
+      ><br /><span id="start" style="font-size: 30px"
+        >Press space to start
+      </span>
+    </p>
+    <!-- create canvas element -->
+    <div style="width: 800px">
+      <canvas id="canvas" width="500" height="500"></canvas>
+      <p style="position: absolute; top: 0; right: 10%; font-weight: bold">
+        Adjust your audio before starting <br />
+        <br />
+        Controls : <br /><span style="color: blue">[leftArrow]</span> and
+        <span style="color: blue">[rightArrow]</span> to move<br />
+        <span style="color: blue">[space]</span> to shoot <br /><br />
+        Defeat the waves to go to the next level <br />
+        <span style="color: rgb(221, 16, 16)"
+          >Level 2 and 3 take a few seconds to load</span
+        >
+        <br /><br />
+        You have 3 lives<br />
+        don't let the invaders pass you !
+        <br />
+        <br />
+        Have fun :)
+      </p>
+    </div>
+    <!-- include game script -->
+    <script src="space.js"></script>
+  </body>
+</html>
