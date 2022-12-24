@@ -19,6 +19,7 @@ New features:
 * Obstacles that bullets cannot pass through.
 * An end condition for the game if the aliens reach the bottom of the screen.
 * Lives for the player, who now has 3 lives and visual hearts to keep track of them.
+* added levels, with each level speed and number or invaders increase
 * Invaders and final boss are now represented by images from the original game.
 * Player has been replaced with a spaceship image.
 * A score that increases each time an alien is defeated.
